@@ -1,0 +1,66 @@
+@media (max-width: 750px) {
+
+    .container {
+        min-width: 18.75em;
+        height: 50em;
+        margin: 0.313em 1.875em;
+        border-radius: 0.375em;
+    }
+
+    .header {
+        width: 6.25em;
+    }
+
+    .header-title,
+    h2 {
+        width: 12.5em;
+        font-size: 1em;
+    }
+
+    .header-descrition {
+        font-size: 0.625em;
+        width: 20em;
+        display: flex;
+        align-self: center;
+    }
+
+    .team,
+    .karma,
+    .supervisor,
+    .calculator {
+        width: 18.75em;
+    }
+
+    .fa-solid {
+        margin-left: 5.5em;
+    }
+
+    .card-colun {
+        top: 9.375em;
+        width: 6.25em;
+        right: 2.813em;
+    }
+
+    .card-rows {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .supervisor {
+        position: relative;
+        bottom: 5.938em;
+    }
+
+    .calculator {
+        position: relative;
+        margin: 0em;
+        width: 18.75em;
+        top: 15em;
+    }
+
+    .attribution {
+        top: 0.313em;
+    }
+}
